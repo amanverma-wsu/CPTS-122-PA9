@@ -1,3 +1,5 @@
+MEMBERS: Aman , Tony Cao, Lyon Manono
+
 make server
 g++ player.cpp server.cpp -o server -lsfml-system -lsfml-network -lsfml-graphics -lsfml-window -lsfml-audio -lpthread
 
