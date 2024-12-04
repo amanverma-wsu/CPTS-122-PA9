@@ -32,7 +32,17 @@ Ensure you have the following installed:
 - **SFML Library** (including system, network, graphics, window, and audio modules)
 - **pthread** library
 
-### 2. Build the Server and Client
+### 2. Installing SFML
+
+There are three approaches to install SFML on Linux:
+
+1. **Install it from your distribution's package repository (Preferred)**
+   - If the desired version of SFML is available in the official repository, you can install it using your package manager. For example, on Debian-based distributions, run:
+     ```bash
+     sudo apt-get install libsfml-dev
+     ```
+
+### 3. Build the Server and Client
 
 #### Compile the Server
 
@@ -80,10 +90,4 @@ make client: g++ player.cpp client.cpp -o client -lsfml-system -lsfml-network -l
 
 - Ensure all terminals are in the same directory containing the compiled files.
 - For a smooth gaming experience, ensure a stable network connection.
-
----
-
-## Acknowledgments
-
-This project was created as a collaborative effort by the team members listed above. Special thanks to the contributors of the SFML library for providing tools essential to game development.
 
