@@ -2,7 +2,7 @@
 
 ## Video Demonstration
 
-[Watch the demonstration](https://youtu.be/K7mSVq3CRgo?si=3SRF1Gdkjrm5a8jn)
+[Watch the demonstration](https://youtu.be/K7mSVq3CRgo?si=lPu3qpgogi3bVlSB)
 
 [Learn how to play Ludo](https://youtu.be/xYXj9DwKHr4?si=MBgQe5E853CsJg8M)
 
