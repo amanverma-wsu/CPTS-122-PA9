@@ -15,6 +15,9 @@
 This project is a multiplayer **Ludo game** built using **C++** and **SFML (Simple and Fast Multimedia Library)**. It brings the classic board game experience into the digital realm, allowing multiple players to join and interact in real-time. The server-client architecture ensures smooth communication and gameplay.
 
 ---
+## LAB SECTION 8
+
+
 
 ## Team Members
 
