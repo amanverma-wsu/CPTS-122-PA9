@@ -51,14 +51,16 @@ There are three approaches to install SFML on Linux:
 Run the following command in your terminal:
 
 ```bash
-g++ player.cpp server.cpp -o server -lsfml-system -lsfml-network -lsfml-graphics -lsfml-window -lsfml-audio -lpthread```
+g++ player.cpp server.cpp -o server -lsfml-system -lsfml-network -lsfml-graphics -lsfml-window -lsfml-audio -lpthread
+```
 
 #### Compile the Client
 
 Run the following command:
 
 ```bash
-g++ player.cpp client.cpp CircleShape.cpp SquareShape.cpp -o client -lsfml-system -lsfml-network -lsfml-graphics -lsfml-window -lsfml-audio -lpthread```
+g++ player.cpp client.cpp CircleShape.cpp SquareShape.cpp -o client -lsfml-system -lsfml-network -lsfml-graphics -lsfml-window -lsfml-audio -lpthread
+```
 
 ---
 
