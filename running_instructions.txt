@@ -1,0 +1,27 @@
+make server
+g++ player.cpp server.cpp -o server -lsfml-system -lsfml-network -lsfml-graphics -lsfml-window -lsfml-audio -lpthread
+
+client:
+g++ player.cpp client.cpp CircleShape.cpp SquareShape.cpp -o client -lsfml-system -lsfml-network -lsfml-graphics -lsfml-window -lsfml-audio -lpthread
+
+
+run:
+open 5 terminals
+
+in terminal 1:
+./server
+
+
+in rest
+./client
+
+
+game starts once 4 clients join
+
+
+
+Test Cases:
+g++ -o test test_game.cpp player.cpp CircleShape.cpp SquareShape.cpp -lsfml-graphics -lsfml-window -lsfml-system
+
+
+./test
